@@ -21,6 +21,7 @@ RUN apt-get update && apt-get install -y \
     uuid-dev \
     vim
 
+ADD vimrc /root/.vimrc
 WORKDIR /work
 
 CMD ["bash"]
